@@ -55,117 +55,118 @@ const EXPERIENCES: Experience[] = [
     role: "GTM & Content Strategist",
     period: "Feb 2023 - June 2024",
     location: "Seattle, WA",
-    description: "Led go-to-market strategy, messaging, and content execution for B2B and B2C clients across AutoTech (IoT), mental healthcare, safety, and e-commerce.",
+    description: "Owned go-to-market strategy, product positioning, and content execution for B2B/B2C clients in AutoTech (IoT), mental healthcare, and e-commerce.",
     highlights: [
-      "Developed GTM for enterprise dynamic pricing engine ($250K revenue opportunity)",
-      "Increased high-intent lead capture by 15% via targeted content funnels",
-      "Reduced post-launch churn by 20% through improved onboarding content",
-      "Streamlined AI Content Chains using Multi-Modal prompting; increased content velocity by 40%",
-      "Directed end-to-end launch readiness for high-stakes client releases"
+      "Created GTM strategy for enterprise dynamic pricing engine opening a $250K annual revenue opportunity",
+      "Ran content roadmaps across 4 client portfolios using SEMrush and GA4, lifting engagement by 25%",
+      "Grew high-intent lead capture by 15% with targeted content funnels and keyword-driven copy",
+      "Built AI content pipeline (ChatGPT, Claude, Canva AI, CapCut) increasing output by 40% and cutting costs by 60%",
+      "Managed launch readiness for 3 client releases including press announcements and email nurture campaigns"
     ],
     clients: [
       {
-        name: "SafeLot",
+        name: "SafeLot - AutoTech SaaS",
         role: "Brand Strategy Consultant",
         points: [
-          "Designed market entry infrastructure for early-stage IoT SaaS",
-          "Structured comprehensive messaging framework for core IoT solutions",
-          "Defined 'Safety & Efficiency' market identity to cultivate institutional trust"
+          "Developed market entry strategy reframing technical capabilities as a dealership profitability platform",
+          "Created messaging framework with separate persona variants for owners and fleet managers",
+          "Established 'Safety & Efficiency' brand identity using press narratives and trust-focused content"
         ]
       },
       {
-        name: "Grace MindCare",
+        name: "Grace MindCare - Mental Healthcare",
         role: "Strategy Consultant",
         points: [
-          "Formulated foundational market positioning and patient-acquisition strategy",
-          "Systematized a scalable service portfolio (Ketamine, IV Therapy, Autism Evals)",
-          "Crystallized industry credibility via content ecosystem of press narratives"
+          "Built market positioning and patient-acquisition strategy for 3 new service lines",
+          "Partnered with clinical team to rewrite psychiatric service descriptions into patient-friendly language",
+          "Created 60+ FAQ entries and service guides that simplified patient onboarding"
         ]
       },
       {
-        name: "Safety & Women-Focused Initiatives",
+        name: "Safety & Women-Focused Digital Initiatives",
         role: "Messaging Lead",
         points: [
-          "Guided trust-focused and empathy-led messaging for vulnerable communities",
-          "Contributed to early-stage product positioning for safety-focused platforms"
+          "Guided trust-focused and empathy-led messaging strategies for digital tools serving vulnerable communities",
+          "Contributed to early-stage product positioning where clarity and user confidence were critical"
         ]
       }
     ]
   },
   {
-    company: "Hewlett Packard Enterprise (HPE)",
+    company: "Hewlett Packard Enterprise (HPE) - Aruba Networking",
     role: "Product Content & Enablement",
     period: "Jan 2022 - Nov 2022",
     location: "India",
-    description: "Led product analysis and customer-facing enablement content for Aruba Central, improving user adoption for 10,000+ enterprise users.",
+    description: "Ran content strategy, product enablement, and competitive positioning for Aruba Central, a SaaS networking platform with 10,000+ enterprise users.",
     highlights: [
-      "Led 8-person team through platform relaunch using JTBD framework",
-      "Resulted in 15% MRR increase and 20% reduction in onboarding friction",
-      "Drove strategy for analytics dashboard generating $50K+ new MRR via RICE prioritization",
-      "Redesigned Information Architecture and AI chatbot, reducing support tickets by 23%",
-      "Awarded GEM recognition for digital experience initiatives"
+      "Led 8-person cross-functional team through platform relaunch using JTBD framework",
+      "Achieved 15% MRR increase and 20% reduction in onboarding friction",
+      "Owned launch strategy for analytics dashboard driving 15% lift in trial-to-paid conversions",
+      "Redesigned information architecture with chatbot documentation, dropping support tickets by 23%",
+      "Improved onboarding completion rates by 17% and received GEM recognition"
     ]
   },
   {
-    company: "Tata Consultancy Services (TCS)",
+    company: "Tata Consultancy Services (TCS) | Client: SAP",
     role: "Product Analyst",
     period: "Jun 2017 - Dec 2021",
     location: "India",
-    description: "Executed SAP S/4HANA implementation and SolMan content activation; utilized SAP SLT for real-time data replication.",
+    description: "Built the content and enablement infrastructure for enterprise-scale SAP deployments, focusing on user education and content systems.",
     highlights: [
-      "Managed high-stakes SAP content deployments ensuring zero-latency transitions",
-      "Authored SAP Conversational AI chatbot and 200+ article digital knowledge base",
-      "Mentored junior analysts and promoted to lead enterprise deployment projects",
-      "Recognized with multiple GEM awards for project excellence"
+      "Designed and launched conversational chatbot and 200+ article knowledge base",
+      "Automated product onboarding for enterprise clients, dropping support volume by 30%",
+      "Managed content for 5+ enterprise deployment projects serving global teams",
+      "Built standardized content systems (taxonomies, templates) that cut production time",
+      "Mentored junior analysts and earned multiple GEM performance awards"
     ]
   }
 ];
 
 const PROJECTS: Project[] = [
   {
-    title: "Auvra App Relaunch",
-    tag: "Mental Healthcare",
-    role: "Brand & Strategy Lead",
+    title: "Onboarding & Retention",
+    tag: "Auvra",
+    role: "Strategy Lead",
     metrics: "25% Retention Increase",
-    description: "Synthesized patient feedback in Figma to architect an empathy-led onboarding roadmap, reducing service ambiguity."
+    description: "Synthesized patient feedback into high-fidelity Figma wireframes to architect an empathy-led onboarding roadmap."
   },
   {
     title: "User Growth & Engagement",
     tag: "Hugging Face",
     role: "UX/UI Lead",
-    metrics: "25% Engagement Surge",
-    description: "Led UX/UI redesign in Figma; utilized SQL and A/B testing to simplify technical onboarding, delivering 10% lift in sign-ups."
+    metrics: "10% Sign-up Lift",
+    description: "Redesigned developer onboarding and information architecture in Figma; ran A/B tests on messaging and layout."
   },
   {
-    title: "Sustainable AI",
-    tag: "Brand Strategy",
-    role: "Lead Strategist",
-    metrics: "15% Waste Reduction",
-    description: "Formulated a 'Green-AI' positioning strategy translating technical cloud-optimization into a market narrative."
+    title: "Sustainable AI GTM",
+    tag: "Green-AI",
+    role: "Brand Strategist",
+    metrics: "Full Content Lifecycle",
+    description: "Created GTM content strategy distilling cloud-optimization metrics into a compelling product narrative."
   },
   {
-    title: "AI-Powered Workflow Tracker",
+    title: "AI Workflow Analytics",
     tag: "Deloitte",
-    role: "Data Strategist",
-    metrics: "Sentiment-Driven Insights",
-    description: "Created a Tableau dashboard and communication strategy utilizing Power BI to translate complex workforce metrics."
+    role: "Executive Enablement",
+    metrics: "Sentiment Heat Maps",
+    description: "Built executive-facing analytics dashboard using chatbot sentiment data to track workforce patterns."
   }
 ];
 
 const HIGHLIGHTS = [
-  { title: "Cross-Industry GTM", desc: "Developed brand messaging for AutoTech, HealthTech, and E-commerce portfolios." },
-  { title: "Customer Lifecycle", desc: "Optimized end-to-end journey for 10,000+ enterprise customers, reducing friction." },
-  { title: "Impact Optimization", desc: "Designed roadmaps that increased engagement by 25% and reduced churn by 20%." },
-  { title: "Content Leadership", desc: "Led cross-functional teams to ensure consistent brand messaging across global launches." }
+  { title: "Cross-Industry GTM", desc: "Developed GTM strategy across 6+ product launches in IoT, healthcare, and dev tools." },
+  { title: "Customer Lifecycle", desc: "Improved journey for 10,000+ users: 15% MRR growth, 23% fewer support tickets." },
+  { title: "Impact Optimization", desc: "Built AI content pipeline cutting production costs by 60% and scaling output by 40%." },
+  { title: "Content Leadership", desc: "Led integrated campaigns growing high-intent lead capture by 15% across 12+ pages." }
 ];
 
 const COMPETENCIES = [
-  { icon: Target, title: "GTM Strategy", desc: "Go-to-Market execution for B2B SaaS" },
-  { icon: MessageSquare, title: "Product Messaging", desc: "Translating complex tech into clear narratives" },
-  { icon: Users, title: "Journey Mapping", desc: "Optimizing end-to-end user adoption" },
-  { icon: BarChart3, title: "Marketing Analytics", desc: "Data-informed insights via GA4 & SQL" },
-  { icon: Workflow, title: "Content Operations", desc: "Workflow optimization & AI Content Chains" },
-  { icon: Layout, title: "UX/UI Strategy", desc: "High-fidelity wireframing & user research" }
+  { icon: Target, title: "GTM Strategy", desc: "Go-to-Market execution & Audience Segmentation" },
+  { icon: MessageSquare, title: "Product Messaging", desc: "Positioning docs informed by SQL & GA4 funnels" },
+  { icon: Users, title: "Journey Mapping", desc: "Customer journey mapping & Funnel optimization" },
+  { icon: BarChart3, title: "Marketing Analytics", desc: "Data-driven storytelling via Tableau & Power BI" },
+  { icon: Workflow, title: "Content Operations", desc: "AI Content Ops & Automated Pipelines" },
+  { icon: Layout, title: "Brand Voice", desc: "Storytelling & empathy-led messaging strategies" }
 ];
 
 // --- Components ---
@@ -401,7 +402,7 @@ export default function App() {
                 transition={{ delay: 0.2 }}
                 className="text-xl md:text-2xl text-muted leading-relaxed max-w-xl mb-10"
               >
-                Marketing strategist leveraging a foundation in systems analysis to drive cross-channel content strategy and digital engagement for B2B SaaS.
+                Marketing strategist with a technical background in enterprise systems and hands-on GTM and content strategy experience for B2B SaaS brands.
               </motion.p>
               
               <motion.div 
@@ -574,10 +575,10 @@ export default function App() {
               
               <div className="space-y-8">
                 {[
-                  { label: "AI & Automation", skills: ["Agentic AI Workflows", "Multi-Modal Prompting", "AI Content Chains", "AI Chatbot Logic", "GenAI"] },
-                  { label: "Marketing & Growth", skills: ["Brand Positioning", "GTM Strategy", "Content Lifecycle", "SEO (SEMrush)", "GA4"] },
-                  { label: "Product & Design", skills: ["UX/UI (Figma)", "Wireframing", "JTBD Framework", "RICE Prioritization", "Agile/Scrum"] },
-                  { label: "Data & Systems", skills: ["SQL", "Python", "Tableau", "Power BI", "SAP S/4HANA", "SLT"] }
+                  { label: "AI & Content Ops", skills: ["ChatGPT", "Claude", "Perplexity", "Midjourney", "Canva AI", "CapCut", "Agentic AI Workflows", "Automated Content Pipelines"] },
+                  { label: "Marketing & Growth", skills: ["SEMrush", "GA4", "HubSpot", "Funnel Optimization", "A/B Testing", "Competitive Analysis", "Brand Positioning", "Content Lifecycle", "Demand Gen"] },
+                  { label: "Content & Design", skills: ["Figma (High-Fidelity)", "Canva", "Squarespace", "WordPress", "Information Architecture", "Wireframing", "Storytelling"] },
+                  { label: "Data & Systems", skills: ["SQL", "Tableau", "Power BI", "SAP S/4HANA", "Agile/Scrum", "Jira", "Asana", "Notion", "Customer Journey Mapping"] }
                 ].map((group, i) => (
                   <div key={i}>
                     <h4 className="font-mono text-[10px] uppercase tracking-widest text-accent mb-4">{group.label}</h4>
@@ -603,10 +604,17 @@ export default function App() {
                 />
                 <div className="relative z-10">
                   <Cpu className="w-16 h-16 text-accent mb-6 mx-auto" />
-                  <h3 className="text-3xl font-serif italic mb-4">Systems Thinking</h3>
-                  <p className="text-muted max-w-xs mx-auto">
-                    Leveraging a foundation in Computer Science to architect marketing ecosystems that scale.
-                  </p>
+                  <h3 className="text-3xl font-serif italic mb-4">Education</h3>
+                  <div className="space-y-4 text-sm">
+                    <div>
+                      <p className="font-bold text-accent">MS in Information Management</p>
+                      <p className="text-muted">University of Washington | 2025</p>
+                    </div>
+                    <div>
+                      <p className="font-bold text-accent">BE in Computer Science</p>
+                      <p className="text-muted">Rajiv Gandhi Technical University | 2017</p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
